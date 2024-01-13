@@ -28,7 +28,7 @@ const Page = () => {
             onToggleHzSidebar={handleToggleHzSidebar}
             isHzSidebarVisible={isHzSidebarVisible}
           />
-          {/* <GenerateUi onToggleSidebar={handleToggleSidebar} /> */}
+
           <div className=" h-full hidden lg:block">
             <VSidebar />
           </div>

@@ -17,13 +17,11 @@ const UiToggle: React.FC<UiToggleProps> = ({
 
   const toggleGenerate = () => {
     setIsToggleCode(!isToggleCode);
-    // Send the updated value to the parent component
     onToggleCode(!isToggleCode);
   };
 
   const sidebarHandler = () => {
     console.log("clicked");
-    // Call the parent component function to toggle HzSidebar visibility
     onToggleHzSidebar();
   };
   return (
